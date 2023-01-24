@@ -4,4 +4,5 @@ homework:
 3. add university service
    add provider service
    into microservice
-   users can send request to gateway, and fetch data from provider / university service
+   users can send request to gateway,
+   and fetch data from provider / university service
