@@ -3,11 +3,23 @@ spring:
     name: university-service
   cloud:
     config:
-      uri: http://localhost:8089
+#      uri: http://localhost:8089
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVICE
       fail-fast: true
   profiles:
     active:
       dev
+
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    eureka-server-port: 8081
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
 
 management:
   endpoint:

@@ -17,11 +17,11 @@ spring:
 #    username: root
 #    password: 123456
 
-eureka:
-  client:
-    enabled: true
-    register-with-eureka: true
-    fetch-registry: true
-    eureka-server-port: 8081
-    service-url:
-      defaultZone: http://localhost:8081/eureka/
+#eureka:
+#  client:
+#    enabled: true
+#    register-with-eureka: true
+#    fetch-registry: true
+#    eureka-server-port: 8081
+#    service-url:
+#      defaultZone: http://localhost:8081/eureka/
