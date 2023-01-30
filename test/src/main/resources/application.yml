@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: test-service
+server:
+  port: 8088
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    eureka-server-port: 8081
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 20

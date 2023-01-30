@@ -1,0 +1,5 @@
+server:
+  port: 9001
+foo: version 999
+testSymmetric: '{cipher}AQCpZ56d/Gyorc0obQbC93bhPKfeSq6oaN/utnBpy4DUEp2edS8MSYyAfT3I3oTpfg4aPahzBTx18+yVazY2gMlYsb2qeltDVzrsW8R4zA8uJqwEv0sF2Pt1aAq4X8bUrJ0XFABzl6RpyPvV7AiHlfQ8Asiy9zd7ZrtR/YoxZ1gnn8/kcRhy93El4TMHN1NDFXZ/7YG1LfhhIby5pzEjbY4lJN8kJNrBhCJNpP6198wdGNIYs/6pNdWk0gdcc0EClHcEO0YEt5GaO69HH3k3dzrN1RzHXFLgpwEsxyFxLmb7N8v7vqHCbf6w/g0+QWPUu9++zENdI1XnBT8XL4/v4GxHMMjYRUHIZx2pSe3GaKzrbaG/42rerasjobgfzOlmppw='
+

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: university-service
+  cloud:
+    config:
+      uri: http://localhost:8089
+      fail-fast: true
+  profiles:
+    active:
+      dev
+
+management:
+  endpoint:
+    refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: refresh

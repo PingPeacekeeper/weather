@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: config-service
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations:
+            classpath:/shared
+
+
+management:
+  endpoint:
+    refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+server:
+  port: 8089
+
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    eureka-server-port: 8081
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
