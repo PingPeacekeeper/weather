@@ -16,11 +16,13 @@ class GithubServiceTest {
 
     @Test
     public void test() throws InterruptedException, ExecutionException {
+        System.out.println(111);
         CompletableFuture<User> f1 = service.findUser("BananaAppleBanana");
         CompletableFuture<User> f2 = service.findUser("PingPeacekeeper");
         CompletableFuture<Void> future = CompletableFuture.allOf(f1, f2);
-
+        System.out.println(222);
         future.join();
+        System.out.println(333);
         System.out.println(f1.get());
         System.out.println(f2.get());
 
